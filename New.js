@@ -23,27 +23,30 @@
 //
 //console.log(reverse);
 
-//An isogram is a word that has no duplicate letters     NOT DONE
+//An isogram is a word that has no duplicate letters      DONE
 //"Algorism"
 // "Password"
 // "PasSword"
 // "Unforgiveable"
 // "Moose"
-//let word="Password";
-//let letter= word[0];
-//
-//let message;
-//for(let i = 0;i<word.length;i++){
-//for(let j=i+1;j<word.length;j++){
-//if (word[i] === word[j]){
-//
-//message ="The word isn't isogram";
+//let word = "Moose";
+//let letter = word[0];
+//let isRepeat = false;
+//for(let j=0;j<word.length;j++){
+//if (isRepeat===true) break;
+//for (let i =j+1;i<word.length;i++){
+//if(word[j] === word[i]){
+//letter=word[j];
+//isRepeat = true;
 //break;
-//}else message = "The word is isogram";
-//
+//}else {isRepeat = false;
 //}
+//}
+//}
+//if(isRepeat) console.log("The word isn’t isogram");
+//else console.log("The word is Isogram");
 
- //console.log(message)
+
 
  //Strong Password                                 NOT DONE
 // let pass = "1234ABCD";
