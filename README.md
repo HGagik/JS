@@ -1,1 +1,1 @@
-# JS
+# JSconsole.log(1)
