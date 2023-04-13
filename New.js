@@ -112,18 +112,30 @@
 //}else console.log("Your password is strong");
 
 
-//The sorted sentence                                  NOT DONE
-//let number = 0;
+//The sorted sentence                                   DONE
+
 //let text = "4of Fo1r pe6ople g3ood th5e the2";
-//let index = 0;
-//let words= text.split(" ");
-//for(let j = 0;j<words.length;j++)
-//for (let i = 0;i<words[j].length;i++){
-//if(words[j][i]<=9 && words[j][i]>=0){
-//number = words[j][i];
-//
-//}console.log(number);
+//let words = text.split(" ");
+//let newText = "";
+//for(let i = 0;i<words.length;i++){
+//for (let j = 0;j<words[i].length;j++){
+//if(words[i][j]>="0" && words[i][j]<="9"){
+//newText += words[i][j] + words[i]+"  ";
 //}
+//}
+//}
+//let finalText = " ";
+//let newWords = newText.split("  ");
+// newWords.sort();
+//for(let i = 0;i<newWords.length;i++){
+//finalText = finalText + newWords[i] + " ";
+//}
+//for (let i = 0; i <finalText.length; i++) {
+//if(finalText[i]>="0" && finalText[i]<="9"){
+//finalText=finalText.replace(/1|2|3|4|5|6|7|8|9|/g,"");
+//}
+//}console.log(finalText);
+
 
 
 // character that repeats                                      DONE
