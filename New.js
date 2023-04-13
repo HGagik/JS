@@ -48,65 +48,68 @@
 
 
 
- //Strong Password                                 NOT DONE
- let pass = "Arewehumanorarewecoders?";
- let count = 0;
- let isDigit;
- let isUpper;
- let isLower;
- let min = 8;
- let max = 20;
- for(i=0;i<pass.length;i++){
-  if(pass[i]>="0" && pass[i]<="9"){
- isDigit = true;}
- }
- for(i=0;i<pass.length;i++){
-   if(pass[i]>="a" && pass[i]<="z"){
-  isLower = true;}
-  }
-  for(i=0;i<pass.length;i++){
-    if(pass[i]>="A" && pass[i]<="Z"){
-   isUpper = true;}
-   }
-
-  for(i=0;i<pass.length-2;i++){
-  if(pass[i]==pass[i+1] && pass[i]==pass[i+2]){
-   count++;
-   }
-   }
- if(isLower && isUpper && !isDigit){
-    count++;}
-
-else if(isLower && !isUpper && isDigit){
-    count++;}
-
-else if(!isLower && isUpper && isDigit){
-    count++;}
-
-else if(!isLower && !isUpper && isDigit){
-     count+=2;}
-
-else if(!isLower && isUpper && !isDigit){
-     count+=2;}
-
- else if(isLower && !isUpper && !isDigit){
-     count+=2;}
-
- else if(!isLower && !isUpper && !isDigit){
-      count+=3;}
-
- if (pass.length < 8){
- if(count == 0){
- count += (min - pass.length)}
- else if (count >= 1){
- count = (min - pass.length)};
- }
- if (pass.length > 20){
-  count += (pass.length-20)
-  }
-if(count > 0){
-console.log(count);
-}else console.log("Your password is strong");
+ //Strong Password                                  DONE
+// let pass = "Arewehumanorarewecoders?";
+// let count = 0;
+// let isDigit;
+// let isUpper;
+// let isLower;
+// let min = 8;
+// let max = 20;
+// for(i=0;i<pass.length;i++){
+//  if(pass[i]>="0" && pass[i]<="9"){
+// isDigit = true;}
+// }
+// for(i=0;i<pass.length;i++){
+//   if(pass[i]>="a" && pass[i]<="z"){
+//  isLower = true;}
+//  }
+//  for(i=0;i<pass.length;i++){
+//    if(pass[i]>="A" && pass[i]<="Z"){
+//   isUpper = true;}
+//   }
+//
+//
+// if(isLower && isUpper && !isDigit){
+//    count++;}
+//
+//else if(isLower && !isUpper && isDigit){
+//    count++;}
+//
+//else if(!isLower && isUpper && isDigit){
+//    count++;}
+//
+//else if(!isLower && !isUpper && isDigit){
+//     count+=2;}
+//
+//else if(!isLower && isUpper && !isDigit){
+//     count+=2;}
+//
+// else if(isLower && !isUpper && !isDigit){
+//     count+=2;}
+//
+// else if(!isLower && !isUpper && !isDigit){
+//      count+=3;}
+//  for(i=0;i<pass.length-2;i++){
+//  if(pass[i]==pass[i+1] && pass[i]==pass[i+2]){
+//  if (count==0){
+//   count++;}
+//
+//   }
+//   }
+//
+// if (pass.length < 8){
+// if(count == 0){
+// count += (min - pass.length)}
+// else if (count >= 1){
+// count = (min - pass.length)};
+// }
+// if (pass.length > 20){
+//  count += (pass.length-20)
+//  }
+//if(count > 0){
+//console.log(count);
+//}else console.log("Your password is strong");
 
 
 //The sorted sentence                                  NOT DONE
