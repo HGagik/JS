@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node New.js"
+    "test": "node Hometask4.js"
   },
   "keywords": [],
   "author": "",

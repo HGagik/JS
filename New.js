@@ -139,24 +139,24 @@
 
 
 // character that repeats                                      DONE
-// let word = "Isildur";
-// let letter = word[0];
-// let isRepeat = false;
-// for (let j = 0; j < word.length; j++) {
-//     if (isRepeat === true) break;
-//     for (let i = j + 1; i < word.length; i++) {
-//         if (word[j] === word[i]) {
-//             letter = word[j];
-//             isRepeat = true;
-//             break;
-//         } else {
-//             isRepeat = false;
-//         }
-//     }
-// }
-//
-// if (isRepeat) console.log(letter);
-// else console.log(-1);
+ let word = "Isildur";
+ let letter = word[0];
+ let isRepeat = false;
+ for (let j = 0; j < word.length; j++) {
+     if (isRepeat === true) break;
+     for (let i = j + 1; i < word.length; i++) {
+         if (word[j] === word[i]) {
+             letter = word[j];
+             isRepeat = true;
+             break;
+         } else {
+             isRepeat = false;
+         }
+     }
+ }
+
+ if (isRepeat) console.log(letter);
+ else console.log(-1);
 
 
 // //construct the following pattern                 DONE
